@@ -153,7 +153,7 @@
 
         self.zoomValue = 100;
 
-        if (!container.find('.snap-view').length) {
+        if (!container.find('.iv-snap-view').length) {
             container.prepend(imageViewHtml);
         }
 
